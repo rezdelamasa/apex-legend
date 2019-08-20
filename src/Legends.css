@@ -1,0 +1,89 @@
+.Legends {
+	width: 100%; height: 100%;
+
+	display: flex;
+	flex-direction: rowd;
+}
+
+.display-area {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.display__background {
+	width: auto;
+	height: 80vh;
+	width: 30vw;
+	object-fit: cover;
+	position: absolute; 
+	top: 0; left: 5%;
+}
+
+.display__background-text {
+	position: absolute;
+	margin: 0;
+	margin-top: 50px;
+	color: white;
+	font-size: 10vw;
+	z-index: 2;
+	letter-spacing: 0.5vw;
+	text-shadow: 5px 5px 10px #333;
+}
+
+.legend__avatar {
+	display: none;
+	max-width: 30%;
+	/*width: 35%;*/
+	height: auto;
+	max-height: 35vw;
+	position: relative;
+	z-index: 3;
+}
+
+[class^="hover--"] {
+	display: flex;
+}
+/*
+[class$="Bangalore"] {
+	width: 16vw;
+}
+
+[class$="Bloodhound"] {
+	width: 18.5vw;
+}
+
+[class$="Caustic"] {
+	width: 20.3vw;
+}
+
+[class$="Gibraltar"] {
+	width: 19.7vw;
+}
+
+[class$="Lifeline"] {
+	width: 25.9vw;
+}
+
+[class$="Mirage"] {
+	width: 19.7vw;
+}
+
+[class$="Octane"] {
+	width: 27.3vw;
+}
+
+[class$="Pathfinder"] {
+	width: 16.4vw;
+}
+
+[class$="Wattson"] {
+	width: 23.4vw;
+}
+
+[class$="Wraith"] {
+	width: 14.1vw;
+}*/

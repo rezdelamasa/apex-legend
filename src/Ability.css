@@ -1,0 +1,57 @@
+.Ability {
+	width: 30%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	box-sizing: border-box;
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; 
+  animation-delay: 0.5s;
+}
+
+.Ability__type {
+	margin: 0;
+	font-size: 2.5rem;
+}
+
+.Ability__image {
+	width: 100%;
+	height: 50%;
+}
+
+.Ability__name {
+	font-size: 1.5vw;
+	margin: 0;
+	color: #b83038;
+	letter-spacing: 3px;
+}
+
+.Ability__description {
+	font-size: 1vw;
+	text-align: center;
+	margin: 0;
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

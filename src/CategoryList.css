@@ -1,0 +1,13 @@
+.category-list {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style-type: none;
+	height: 10%;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	/*box-shadow: -5px 0 10px #333;*/
+	z-index: 0;
+}
