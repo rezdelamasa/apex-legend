@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/apex-legend/static/css/main.14ebbea4.chunk.css",
+    "main.js": "/apex-legend/static/js/main.1be7070a.chunk.js",
+    "main.js.map": "/apex-legend/static/js/main.1be7070a.chunk.js.map",
+    "runtime~main.js": "/apex-legend/static/js/runtime~main.1bbd0c44.js",
+    "runtime~main.js.map": "/apex-legend/static/js/runtime~main.1bbd0c44.js.map",
+    "static/js/2.3e7dde31.chunk.js": "/apex-legend/static/js/2.3e7dde31.chunk.js",
+    "static/js/2.3e7dde31.chunk.js.map": "/apex-legend/static/js/2.3e7dde31.chunk.js.map",
+    "index.html": "/apex-legend/index.html",
+    "precache-manifest.7e2930ef955b08e4cd646dc767ff4625.js": "/apex-legend/precache-manifest.7e2930ef955b08e4cd646dc767ff4625.js",
+    "service-worker.js": "/apex-legend/service-worker.js",
+    "static/css/main.14ebbea4.chunk.css.map": "/apex-legend/static/css/main.14ebbea4.chunk.css.map"
+  }
+}
